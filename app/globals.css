@@ -28,3 +28,15 @@ body {
 .circle {
   @apply z-0 w-20 h-20 bg-white absolute rounded-full hidden nav:block
 }
+
+.header {
+  @apply font-[family-name:var(--font-manrope)] font-bold text-5xl
+}
+
+.manrope {
+  @apply font-[family-name:var(--font-manrope)]
+}
+
+.jetbrains {
+  @apply font-[family-name:var(--font-jetbrains)]
+}
