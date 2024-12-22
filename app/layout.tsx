@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={`${jetBrains.variable} ${manrope.variable} antialiased`}>
+      <body className={`${jetBrains.variable} ${manrope.variable} antialiased overflow-x-hidden`}>
         <div className="w-full max-w-[1065px] text-white px-3 mx-auto">
           <Navbar/>
           {children}

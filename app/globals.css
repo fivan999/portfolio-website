@@ -13,10 +13,13 @@
   }
 }
 
+html {
+  min-height: 100%;
+}
 body {
   font-size: clamp(0.9rem, 3.5vw, 1.1rem);
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   min-height: 100vh;
   background: linear-gradient(var(--main-blue), var(--deep-gray));
   background-repeat: no-repeat;
