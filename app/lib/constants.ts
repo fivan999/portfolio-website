@@ -1,11 +1,11 @@
-export const IS_CHRISTMAS = true
+export const IS_CHRISTMAS = false
 export const JOIN_DATE_108 = "28.09.2024"
 export const HERO_NAME = "Иван Филатов"
 export const HERO_DESCRIPTION = `
-  Lorem ipsum dolor sit amet consectetur
-  adipisicing elit. Labore corporis, quasi eum
-  amet vitae culpa aliquam nisi explicabo odit
-  numquam alias.
+  Backend Python Developer, 18 лет. Студент Университета Иннополис.
+  Активно участвую в соревнованиях по спортивному программированию,
+  планирую разорвать всех на ICPC. OpenSource энтузиаст. Любитель спортзала.
+  Просто очень добрый человек
 `
 export const LOCATION_COUNTRY = "Россия"
 export const LOCATION_TOWN = "Иннополис"

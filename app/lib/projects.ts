@@ -19,19 +19,19 @@ const projects: ProjectInterface[] = [
   {
     imageURL: brainforces,
     title: "Организатор викторин - BrainForces",
-    tags: ["Django", "Микросервисы", "Celery"],
+    tags: ["Django", "Docker", "Redis", "ElasticSearch", "OAuth2"],
     url: "https://github.com/fivan999/BrainForces",
   },
   {
     imageURL: anika,
     title: "Агрегатор действий клиентов - ANIKA",
-    tags: ["Django", "Микросервисы", "Celery"],
+    tags: ["FastAPI", "SQLAlchemy", "Docker", "PyTest", "JWT"],
     url: "https://github.com/fivan999/ANIKA",
   },
   {
     imageURL: jwtauth,
     title: "API для JWT авторизации на FastAPI",
-    tags: ["FastAPI", "Docker"],
+    tags: ["FastAPI", "SQLAlchemy", "Docker", "PyTest", "JWT"],
     url: "https://github.com/fivan999/fastapi_users_service",
   },
   {
@@ -42,14 +42,14 @@ const projects: ProjectInterface[] = [
   },
   {
     imageURL: mapsapi,
-    title: "Приложение для взаимодействия с Maps API",
-    tags: ["Geolocation", "Desktop", "API"],
+    title: "Приложение для взаимодействия с API Яндекс карт",
+    tags: ["Geolocation", "PyQT", "API"],
     url: "https://github.com/fivan999/MapsApiApp",
   },
   {
     imageURL: cinemasystem,
     title: "Система управления кинотеатрами",
-    tags: ["Desktop", "SQL"],
+    tags: ["PyQT", "SQL"],
     url: "https://github.com/fivan999/cinema-controlling-system"
   }
 ] as const
