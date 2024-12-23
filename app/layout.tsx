@@ -3,7 +3,7 @@ import { JetBrains_Mono, Manrope } from "next/font/google"
 import "./globals.css"
 import Navbar from "./components/navbar"
 import Snow from "./components/snow"
-import { IS_CRISTMAS } from "./lib/constants"
+import { IS_CHRISTMAS } from "./lib/constants"
 import { Analytics } from "@vercel/analytics/next"
 
 const jetBrains = JetBrains_Mono({
@@ -36,7 +36,7 @@ export default function RootLayout({
         <div className="w-full max-w-[1065px] text-white px-3 mx-auto">
           <Navbar/>
           {children}
-          {IS_CRISTMAS && <Snow/>}
+          {IS_CHRISTMAS && <Snow/>}
           <Analytics />
         </div>
       </body>

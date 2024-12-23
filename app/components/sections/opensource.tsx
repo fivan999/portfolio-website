@@ -8,7 +8,7 @@ import onezeroeight from "@/app/assets/img/onezeroeight.png"
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import santaHat from "@/app/assets/img/santa-hat.png"
-import { IS_CRISTMAS, JOIN_DATE_108 } from '@/app/lib/constants'
+import { IS_CHRISTMAS, JOIN_DATE_108 } from '@/app/lib/constants'
 
 const OpenSourceScroller = dynamic(() => import("@/app/components/openSourceScroller"), { ssr: false })
 
@@ -30,7 +30,7 @@ export default function OpenSourceSection() {
           className="flex-shrink-0 flex-grow-0 m-auto relative group"
           target="_blank"
         >
-          {IS_CRISTMAS && <Image className="absolute right-0 top-[-10px] rotate-12 z-10 filter group-hover:invert duration-500" src={santaHat} alt="santa-hat"/>}
+          {IS_CHRISTMAS && <Image className="absolute right-0 top-[-10px] rotate-12 z-10 filter group-hover:invert duration-500" src={santaHat} alt="santa-hat"/>}
           <Image
             className="filter hover:invert group-hover:invert transition-[filter] duration-500 max-h-[320px] rounded-3xl"
             src={onezeroeight}

@@ -9,14 +9,14 @@ import innopolis from "@/app/assets/svg/innopolis.svg"
 import github from "@/app/assets/svg/github.svg"
 import leetcode from "@/app/assets/svg/leetcode.svg"
 import santaHat from "@/app/assets/img/santa-hat.png"
-import { CODEFORCES_URL, GITHUB_URL, HERO_DESCRIPTION, HERO_NAME, IS_CRISTMAS, LEETCODE_URL, LOCATION_COUNTRY, LOCATION_TOWN } from '@/app/lib/constants'
+import { CODEFORCES_URL, GITHUB_URL, HERO_DESCRIPTION, HERO_NAME, IS_CHRISTMAS, LEETCODE_URL, LOCATION_COUNTRY, LOCATION_TOWN } from '@/app/lib/constants'
 
 
 export default function HeroSection() {
   return (
     <section className="mt-28">
       <article className="flex gap-x-5 lg:gap-x-28 relative">
-        {IS_CRISTMAS && <Image className="absolute hidden sm:block left-[100px] top-[-30px] -rotate-6" width={90} src={santaHat} alt="santa-hat"/>}
+        {IS_CHRISTMAS && <Image className="absolute hidden sm:block left-[100px] top-[-30px] -rotate-6" width={90} src={santaHat} alt="santa-hat"/>}
         <Image className="rounded-3xl hidden sm:block" height={420} src={ryan} quality={100} alt="me"/>
         <main className="font-[family-name:var(--font-jetbrains)] my-auto">
           <h2 className="text-6xl">{HERO_NAME}</h2>
