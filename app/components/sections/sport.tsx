@@ -9,11 +9,11 @@ export default function SportSection() {
       <h3 className="text-center header">Спортивные достижения</h3>
       <Image className="absolute left-[9900px] rotate-[-16deg] top-[-60px] drop-shadow-[0_10px_10px_rgb(0_0_0_/_0.75)]" src={star} width={159} height={159} quality={100} alt="star"/>
       <Image className="absolute right-[9900px] rotate-12 bottom-[-60px] drop-shadow-[0_10px_10px_rgb(0_0_0_/_0.75)]" src={star} width={159} height={159} quality={100} alt="star"/>
-      <article className="flex grow gap-16 mt-10">
-        <iframe className="bg-white shrink-0 grow-0" width={500} height={320} src="https://leetcard.jacoblin.cool/fi_van?theme=light&font=Manrope&ext=heatmap">
+      <article className="flex flex-wrap grow gap-16 mt-10">
+        <iframe className="bg-white shrink-0 grow-0 mx-auto" width={500} height={320} src="https://leetcard.jacoblin.cool/fi_van?theme=light&font=Manrope&ext=heatmap">
           Ваш браузер не поддерживает виджеты
         </iframe>
-        <ul className="jetbrains text-2xl list-disc">
+        <ul className="jetbrains text-2xl list-disc shrink flex-grow basis-1/3">
           <li>Чемпион Республики Татарстан по спортивному программированию</li>
           <li>Участник регионального этапа ICPС по Евразии. Диплом 3 степени</li>
           <li>Призёр чемпионата республики Татарстан по спортивному программированию</li>

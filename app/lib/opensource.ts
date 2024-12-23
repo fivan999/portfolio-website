@@ -5,14 +5,24 @@ interface OpenSourceAchievement {
 
 const openSourceData: OpenSourceAchievement[] = [
   {
-    text: "Смачно поебланил"
+    text: "Написал систему уведомлений бронирования музыкальной комнаты в спорткомлексе",
+    url: "https://github.com/one-zero-eight/music-room/pull/61"
   },
   {
-    text: "Решил удалить всё с концами",
-    url: "www.google.com"
+    text: "Написал микросервис для создания, управления, проведения воркшопов, а также записи на них",
+    url: "https://github.com/one-zero-eight/workshops"
   },
   {
-    text: "Здесь находится достаточно большой текст, описывающий всю суть обновления ПО в 108 клубе. Нужно это для того, чтобы я убедился в том, что места хватает. В общем-то всё. =)"
+    text: "Добавил JWT-аутентификацию для обычных пользователей в сервисе брони музыкальной комнаты",
+    url: "https://github.com/one-zero-eight/music-room/pull/66/files"
+  },
+  {
+    text: "Мигрировал устаревший Django-проект (v3.1) на версию 5.1 и заменил сломавшиеся зависимости",
+    url: "https://github.com/one-zero-eight/sport/pull/335"
+  },
+  {
+    text: "Запретил использовать музыкального бота пользователям с пустым алиасом в телеграмме",
+    url: "https://github.com/one-zero-eight/music-room/pull/58"
   }
 ]
 

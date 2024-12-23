@@ -14,7 +14,7 @@ import Link from 'next/link'
 export default function HeroSection() {
   return (
     <section className="mt-28">
-      <article className="flex gap-x-28">
+      <article className="flex gap-x-5 lg:gap-x-28">
         <Image className="rounded-3xl hidden sm:block" height={420} src={ryan} quality={100} alt="me"/>
         <main className="font-[family-name:var(--font-jetbrains)] my-auto">
           <h2 className="text-6xl">Иван Филатов</h2>
@@ -22,7 +22,6 @@ export default function HeroSection() {
             <Image
                 src={locationImage}
                 height={27}
-                placeholder="blur"
                 priority={true}
                 loading="eager"
                 alt="location-logo"
@@ -36,11 +35,21 @@ export default function HeroSection() {
           </p>
         </main>
       </article>
-      <footer className="flex justify-between px-6 py-4 rounded-2xl mt-10 bg-gray-100 w-full">
-        <Image height={40} src={innopolis} alt='innopolis'/>
-        <Link href="https://leetcode.com/fi_van/" target="_blank"><Image height={40} src={leetcode} alt='leetcode'/></Link>
-        <Link href="https://github.com/fivan999" target="_blank"><Image height={40} src={github} alt='github'/></Link>
-        <Link href="https://codeforces.com/profile/fi_van" target="_blank"><Image height={40} src={codeforces} alt='codeforces'/></Link>
+      <footer className="flex flex-col md:flex-row gap-2 items-center justify-between px-6 py-4 rounded-2xl mt-10 bg-gray-100 w-full">
+        <Image title="Моё место учёбы" className="flex-shrink" height={40} src={innopolis} alt='innopolis-logo'/>
+        <Link
+          title="Перейти на мой профиль в LeetCode"
+          href="https://leetcode.com/fi_van/"
+          target="_blank"
+        ><Image height={40} src={leetcode} alt='leetcode-profile'/></Link>
+        <Link
+          title="Перейти на мой профиль в GitHub"
+          href="https://github.com/fivan999"
+          target="_blank"><Image height={40} src={github} alt='github-profile'/></Link>
+        <Link
+          title="Перейти на мой профиль на CodeForces"
+          href="https://codeforces.com/profile/fi_van"
+          target="_blank"><Image height={40} src={codeforces} alt='codeforces-profile'/></Link>
       </footer>
     </section>
   )
