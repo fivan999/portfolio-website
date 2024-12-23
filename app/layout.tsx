@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { JetBrains_Mono, Manrope } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
+import Snow from "./components/snow";
+import { IS_CRISTMAS } from "./lib/constants";
 
 const jetBrains = JetBrains_Mono({
   variable: "--font-jetbrains",
@@ -33,6 +35,7 @@ export default function RootLayout({
         <div className="w-full max-w-[1065px] text-white px-3 mx-auto">
           <Navbar/>
           {children}
+          {IS_CRISTMAS && <Snow/>}
         </div>
       </body>
     </html>

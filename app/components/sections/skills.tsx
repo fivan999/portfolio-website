@@ -3,6 +3,7 @@ import React from 'react'
 import achievements from '@/app/lib/achievements'
 import SkillCard from '@/app/components/skillCard'
 import skills from '@/app/lib/skills'
+import Link from 'next/link'
 
 export default function SkillsSection() {
   return (
@@ -16,7 +17,11 @@ export default function SkillsSection() {
       <aside className="flex-1">
         <h3 className="header text-center" id="achievements">Достижения</h3>
         <ul className="mt-4 list-decimal pl-12 pr-4 text-2xl">
-          {achievements.map(piece => <li key={piece.text}>{piece.text}</li>)}
+          {achievements.map(piece => (
+            <li className="group" key={piece.text}>
+              {piece.text}{piece?.url && <Link target="_blank" href={piece.url} className="filter group-hover:brightness-50">🔗</Link>}
+            </li>
+          ))}
         </ul>
       </aside>
     </section>

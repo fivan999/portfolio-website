@@ -1,3 +1,4 @@
+import { CONTACT_URL } from '@/app/lib/constants'
 import Link from 'next/link'
 import React from 'react'
 
@@ -11,8 +12,8 @@ export default function ContactSection() {
         <Link className="select-none" href="mailto:contact@bebradev.ru"><p className="text-[16rem] hidden lg:block antialiased select-none mb-12">@</p></Link>
       </div>
       <div title="Отправить мне письмо" className="absolute top-0 md:translate-y-0 translate-y-12 bottom-0 right-[9999px] text-4xl z-10 flex items-center justify-center">
-        <Link href="mailto:contact@bebradev.ru">
-          <h4 className="hover:text-teal-300 transition-all duration-300 hover:scale-110">contact@bebradev.ru</h4>
+        <Link href={`mailto:${CONTACT_URL}`}>
+          <h4 className="hover:text-teal-300 transition-all duration-300 hover:scale-110">{CONTACT_URL}</h4>
         </Link>
       </div>
     </section>

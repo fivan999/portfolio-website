@@ -1,9 +1,14 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import React from 'react'
+
+import santaHat from "@/app/assets/img/santa-hat.png"
+import { IS_CRISTMAS } from '../lib/constants'
 
 export default function Navbar() {
   return (
     <header className="flex flex-wrap items-center relative rounded-2xl mt-4 px-9 py-4 bg-white text-black font-[family-name:var(--font-manrope)] font-bold">
+      {IS_CRISTMAS && <Image className="absolute z-20 left-7 top-[-12px] -rotate-6" src={santaHat} width={40} alt="santa-hat"/>}
       <h1 className="text-4xl z-10 mr-auto">BEBRADEV</h1>
       <nav className="flex gap-x-6 text-2xl z-10 flex-wrap">
         <Link href="/#projects">Проекты</Link>
