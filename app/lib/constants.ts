@@ -1,4 +1,4 @@
-export const IS_CHRISTMAS = false
+export const IS_CHRISTMAS = true
 export const JOIN_DATE_108 = "28.09.2024"
 export const HERO_NAME = "Иван Филатов"
 export const HERO_DESCRIPTION = `
@@ -13,4 +13,4 @@ export const LOCATION_TOWN = "Иннополис"
 export const GITHUB_URL = "https://github.com/fivan999"
 export const LEETCODE_URL = "https://leetcode.com/fi_van/"
 export const CODEFORCES_URL = "https://codeforces.com/profile/fi_van"
-export const CONTACT_URL = "contact@bebradev.ru"
+export const CONTACT_URL = "https://t.me/bebra_dev"
