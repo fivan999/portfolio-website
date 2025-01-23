@@ -31,12 +31,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru">
-      <body className={`${jetBrains.variable} ${manrope.variable} antialiased overflow-x-hidden`}>
+    <html lang="ru" className="overflow-x-hidden">
+      <body
+        className={`${jetBrains.variable} ${manrope.variable} antialiased overflow-x-hidden`}
+      >
         <div className="w-full max-w-[1065px] text-white px-3 mx-auto">
-          <Navbar/>
+          <Navbar />
           {children}
-          {IS_CHRISTMAS && <Snow/>}
+          {IS_CHRISTMAS && <Snow />}
           <Analytics />
         </div>
       </body>
