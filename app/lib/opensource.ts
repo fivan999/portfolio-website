@@ -23,7 +23,15 @@ const openSourceData: OpenSourceAchievement[] = [
   {
     text: "Запретил использовать музыкального бота пользователям с пустым алиасом в телеграмме",
     url: "https://github.com/one-zero-eight/music-room/pull/58"
-  }
+  },
+  {
+    text: "Создал функцию копирования старого расписания тренировок при начале нового семестра",
+    url: "https://github.com/one-zero-eight/sport/pull/337"
+  },
+  {
+    text: "Создал функционал для разрешения только определенной группе студентов посещать тренировку",
+    url: "https://github.com/one-zero-eight/sport/pull/338"
+  },
 ]
 
 export default openSourceData
