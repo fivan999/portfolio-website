@@ -23,6 +23,17 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Филатов Иван",
   description: "Сайт портфолио Python Backend разработчика",
+  keywords: [
+    "Иван", "Филатов", "Портфолио", "Backend",
+    "React", "NextJS", "Программист", "Разработчик",
+  ],
+  referrer: "origin-when-cross-origin",
+  category: "portfolio",
+  creator: "Филатов Иван",
+  robots: {
+    index: true,
+    nocache: false,
+  }
 }
 
 export default function RootLayout({
