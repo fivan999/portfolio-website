@@ -23,6 +23,17 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Филатов Иван",
   description: "Сайт портфолио Python Backend разработчика",
+  keywords: [
+    "Иван", "Филатов", "Портфолио", "Backend",
+    "React", "NextJS", "Программист", "Разработчик",
+  ],
+  referrer: "origin-when-cross-origin",
+  category: "portfolio",
+  creator: "Филатов Иван",
+  robots: {
+    index: true,
+    nocache: false,
+  }
 }
 
 export default function RootLayout({
@@ -31,12 +42,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru">
-      <body className={`${jetBrains.variable} ${manrope.variable} antialiased overflow-x-hidden`}>
+    <html lang="ru" className="overflow-x-hidden">
+      <body
+        className={`${jetBrains.variable} ${manrope.variable} antialiased overflow-x-hidden`}
+      >
         <div className="w-full max-w-[1065px] text-white px-3 mx-auto">
-          <Navbar/>
+          <Navbar />
           {children}
-          {IS_CHRISTMAS && <Snow/>}
+          {IS_CHRISTMAS && <Snow />}
           <Analytics />
         </div>
       </body>
