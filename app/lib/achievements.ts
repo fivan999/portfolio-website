@@ -54,6 +54,9 @@ const sportAchievements: Achievement[] = [
     text: "Финалист чемпионата RUCODE по алгоритмическому программированию (Дивизион C-D)",
     url: "/docs/rucode.pdf",
   },
+  {
+    text: "Участник 48-х международных тренировочных студенческих сборов по программированию в Петрозаводске",
+  },
 ] as const
 
 export default generalAchievements
