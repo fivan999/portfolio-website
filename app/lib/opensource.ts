@@ -21,7 +21,6 @@ const openSourceData: OpenSourceAchievement[] = [
     url: "https://github.com/one-zero-eight/sport/pull/335"
   },
   {
-<<<<<<< HEAD
     text: "Добавил edpoint для аналитики посещаемости студентов в API сайта спорта",
     url: "https://github.com/one-zero-eight/sport/pull/344"
   },
@@ -36,18 +35,6 @@ const openSourceData: OpenSourceAchievement[] = [
   {
     text: "Разрешил загружать несколько медицинских справок по группам здоровья",
     url: "https://github.com/one-zero-eight/sport/pull/339"
-=======
-    text: "Запретил использовать музыкального бота пользователям с пустым алиасом в телеграмме",
-    url: "https://github.com/one-zero-eight/music-room/pull/58"
-  },
-  {
-    text: "Создал функцию копирования старого расписания тренировок при начале нового семестра",
-    url: "https://github.com/one-zero-eight/sport/pull/337"
-  },
-  {
-    text: "Создал функционал для разрешения только определенной группе студентов посещать тренировку",
-    url: "https://github.com/one-zero-eight/sport/pull/338"
->>>>>>> c066695d8ff41b4548bfbb12fe5cf28a458c0ea7
   },
 ]
 
