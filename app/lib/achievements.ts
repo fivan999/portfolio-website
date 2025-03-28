@@ -40,15 +40,16 @@ const generalAchievements: Achievement[] = [
 
 const sportAchievements: Achievement[] = [
   {
-    text: "Чемпион Республики Татарстан по спортивному программированию",
+    text: "Занял 3 место на финале чемпионата Республики Татарстан по спортивному программированию",
+    url: "/docs/final_competitive_tatarstan.pdf",
+  },
+  {
+    text: "Обладатель II спортивного разряда по спортивному программированию",
+    url: "/docs/sports_category_2.pdf",
   },
   {
     text: "Диплом 3 степени на региональном этапе ICPC по Евразии",
     url: "/docs/icpc.pdf",
-  },
-  {
-    text: "Занял 3 место на финале чемпионата Республики Татарстан по спортивному программированию",
-    url: "/docs/final_competitive_tatarstan.pdf",
   },
   {
     text: "Финалист чемпионата RUCODE по алгоритмическому программированию (Дивизион C-D)",
