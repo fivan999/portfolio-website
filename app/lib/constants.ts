@@ -1,4 +1,4 @@
-export const IS_CHRISTMAS = true
+export const IS_CHRISTMAS = false
 export const JOIN_DATE_108 = "28.09.2024"
 export const HERO_NAME = "Иван Филатов"
 export const HERO_DESCRIPTION = `
